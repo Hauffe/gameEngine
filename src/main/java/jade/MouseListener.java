@@ -27,7 +27,7 @@ public class MouseListener {
     }
 
     /**
-     * Mouse position Call back, more information here: https://www.glfw.org/docs/3.3/input_guide.html
+     * Mouse position Call back, more information <a href="http://www.glfw.org/docs/3.3/input_guide.html">here</a>
      */
     public static void mousePosCallback(long window, double xpos, double ypos) {
         get().lastX = get().xPos;
